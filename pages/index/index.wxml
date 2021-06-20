@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <ec-canvas ec="{{ line0 }}"></ec-canvas>
+  <!-- <text style="font-size:medium;margin-top:10px">实时心率：</text> -->
+  <textarea class="res" maxlength="-1" disabled value="实时心率：{{bpm}}/bpm" />
+</view>
